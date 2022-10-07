@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_btn_bg">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/splash_screen_icon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="265dp"
+        android:src="@drawable/icon"
+        app:shapeAppearance="@style/Circular" />
+
+    <TextView
+        android:id="@+id/splash_screen_text"
+        android:layout_width="410dp"
+        android:layout_height="126dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="495dp"
+        android:layout_marginEnd="1dp"
+        android:text="Street light Complaint"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+</RelativeLayout>
